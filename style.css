@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  border: 3px solid white;
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  background-color: rgb(187, 41, 41);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 5px;
+}
+
+.formulario h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form a {
+  text-decoration: none;
+  color: white;
+}
+
+.datos {
+  display: flex;
+  border: 0;
+  align-items: center;
+  height: 40px;
+  border-radius: 40px;
+  padding: 8px;
+}
+
+.datos input {
+  width: 82%;
+  padding: 8px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  color: white;
+  outline: none;
+}
+.datos input ::placeholder {
+  color: white;
+}
+
+.recordar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 14.5px;
+}
+
+.recordar label {
+  display: flex;
+  align-items: center;
+}
+
+.recordar input {
+  margin-right: 5px;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+.boton {
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.registro {
+  text-align: center;
+  font-size: 14.5px;
+}
+
+.registro a {
+  margin-left: 8px;
+}
