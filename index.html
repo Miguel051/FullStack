@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOOP</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-fade">
+      <div class="container">
+        <!-- NAV -->
+        <nav class="nav-main">
+          <div class="logo-container">
+            <img src="img/LOOP1.png" alt="Loop LOGO" class="logo" />
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#trabaja">Trabaja con nosotros</a></li>
+            <li><a href="#contacto">Contáctenos</a></li>
+            <!-- href apunta a login.html (fallback), script hace transición -->
+            <li>
+              <a href="login.html" class="btn-login" id="btnLogin"
+                >Iniciar sesión</a
+              >
+            </li>
+          </ul>
+          <ul class="nav-menu-right">
+            <li>
+              <!-- abre overlay de búsqueda -->
+              <button
+                class="btn-search"
+                id="btnSearch"
+                aria-label="Abrir búsqueda"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- HERO -->
+        <header class="showcase">
+          <div class="overlay"></div>
+          <div class="hero-text">
+            <h1>Transformando<br />realidades</h1>
+            <p>
+              Innovación en energía solar, domótica y seguridad inteligente.
+            </p>
+            <a href="#sobre-nosotros" class="btn-primary">Conócenos</a>
+          </div>
+        </header>
+      </div>
+
+      <!-- SECCIONES -->
+      <section id="sobre-nosotros" class="about-section fade-in">
+        <div class="about-container">
+          <!-- TEXTO DERECHA -->
+          <div class="about-text">
+            <h2>Rompiendo esquemas</h2>
+            <p>
+              LOOP está revolucionando la sostenibilidad con energía inteligente
+              y automatización, combinando velocidad, tecnología y eficiencia
+              para un futuro más responsable y conectado. Minimizando el impacto
+              ambiental y un desarrollo regenerativo para el bienestar de
+              futuras generaciones.
+            </p>
+            <blockquote>
+              “Conectamos tu hogar al futuro con tecnología inteligente y
+              energía solar”
+            </blockquote>
+            <a href="#servicios" class="btn-primary">Descubre más</a>
+          </div>
+          <!-- IMÁGENES IZQUIERDA -->
+          <div class="about-images">
+            <div class="img-grid">
+              <img src="img/sobre nosotros.jpg" alt="Panel solar" />
+              <img src="img/icamaras.png" alt="Cámaras de seguridad" />
+              <img src="img/icerraduras.png" alt="Cerraduras inteligentes" />
+              <img src="img/ipaneles.png" alt="Paneles solares" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicios" class="services-section fade-in">
+        <h2>SERVICIOS</h2>
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <img
+              src="img/automatizacion.jpg"
+              alt="Automatización y videoseguridad"
+            />
+            <div class="service-text">
+              <h3>
+                Instalación de sistemas inteligentes de automatización, control
+                de accesos y videoseguridad
+              </h3>
+              <p>
+                Integramos domótica avanzada y videoseguridad para entornos
+                seguros y eficientes.
+              </p>
+            </div>
+          </div>
+          <div class="service-card fade-in">
+            <img src="img/panels.jpg" alt="Energía solar" />
+            <div class="service-text">
+              <h3>
+                Instalación de sistemas de energía solar para hogares y empresas
+              </h3>
+              <p>
+                Reducimos costos energéticos mediante soluciones solares
+                personalizadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="about-section fade-in">
+        <div class="about-container">
+          <!-- IMÁGENES DERECHA -->
+          <div class="about-images">
+            <div class="img-grid">
+              <img src="img/p1.jpeg" alt="Panel solar" />
+              <img src="img/p2.jpg" alt="Cámaras de seguridad" />
+              <img src="img/p3.jpg" alt="Cerraduras inteligentes" />
+              <img src="img/p4.jpg" alt="Paneles solares" />
+            </div>
+          </div>
+          <!-- TEXTO IZQUIERDA -->
+          <div class="about-text">
+            <h2>NUESTROS PROYECTOS</h2>
+            <p>
+              Transformamos necesidades en soluciones tecnológicas, innovadoras
+              que conectan hogares y empresas con automatización, videoseguridad
+              y energía solar. Nuestra propuesta de valor se basa en brindar un
+              servicio único y personalizado que mejora la eficiencia y
+              seguridad.
+            </p>
+            <blockquote>
+              "En Loop, cada proyecto realizado es un testimonio de nuestra
+              pasión por la tecnología, la eficiencia energética y la
+              satisfacción del cliente"
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="trabaja" class="about-section fade-in">
+        <div class="about-container">
+          <!-- TEXTO DERECHA -->
+          <div class="about-text">
+            <h2>Trabaja con nosotros</h2>
+            <p>
+              ¿Quieres impulsar tu futuro? 🚀 En Loop te capacitamos en
+              domótica, cámaras inteligentes y cerrajería digital para que
+              trabajes con nosotros y crezcamos juntos hacia la innovación. 🔧✨
+            </p>
+            <blockquote>
+              "En Loop transformamos instaladores en profesionales de la
+              innovación."
+            </blockquote>
+          </div>
+          <!-- IMÁGENES IZQUIERDA -->
+          <div class="about-images">
+            <img src="img/UNETE.jpg" alt="Unete a nosotros" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact-section fade-in">
+        <h2>Contáctanos</h2>
+        <p class="sub-text">
+          Estamos aquí para ayudarte. Puedes visitarnos, escribirnos o
+          llamarnos.
+        </p>
+        <div class="contact-container">
+          <!-- Información de contacto -->
+          <div class="contact-info">
+            <h3>📍 Nuestras Sedes</h3>
+            <p>
+              <strong>Oficina Principal:</strong> carrera 14 # 75-77, Bogotá,
+              Colombia
+            </p>
+            <br />
+            <div class="map-container">
+              <iframe
+                title="Ubicación LOOP Bogotá"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6165892986337!2d-74.06144682552724!3d4.662258341990669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5eb12d016b%3A0x4067ffd4ff4371c9!2zQ3JhLiAxNCAjIDc1LTc3LCBDaGFwaW5lcm8sIEJvZ290w6EsIEQuQy4sIEJvZ290w6EsIEJvZ290w6EsIEQuQy4!5e0!3m2!1ses!2sco!4v1755504867444!5m2!1ses!2sco"
+                width="100%"
+                height="350"
+                style="border: 0; border-radius: 12px; margin-top: 30px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <br />
+            <h3>📞 Teléfonos</h3>
+            <p>+57 324 3678716</p>
+            <p>+57 324 3678711</p>
+            <br />
+            <h3>✉️ Correos</h3>
+            <p>contacto@loopcol.co</p>
+            <br />
+          </div>
+
+          <!-- Formulario -->
+          <div class="contact-form">
+            <h3>Envíanos un mensaje</h3>
+            <form
+              action="mailto:info@tuempresa.com"
+              method="POST"
+              enctype="text/plain"
+            >
+              <input
+                type="text"
+                name="nombre"
+                placeholder="Tu nombre"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Tu correo"
+                required
+              />
+              <input
+                type="tel"
+                name="telefono"
+                placeholder="Tu teléfono (opcional)"
+              />
+              <textarea
+                name="mensaje"
+                rows="5"
+                placeholder="Escribe tu mensaje aquí..."
+                required
+              ></textarea>
+              <button type="submit">Enviar Mensaje</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEARCH OVERLAY (búsqueda en la página) -->
+      <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+        <div
+          class="search-dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="searchTitle"
+        >
+          <button
+            class="search-close"
+            id="searchClose"
+            aria-label="Cerrar búsqueda"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <h3 id="searchTitle">Buscar en el sitio</h3>
+          <form id="searchForm" class="search-form" role="search">
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="Escribe y presiona Enter… (ej: solar, cámaras, domótica)"
+              autocomplete="off"
+              aria-label="Buscar en sitio"
+            />
+          </form>
+          <div
+            id="searchResults"
+            class="search-results"
+            aria-live="polite"
+            style="margin-top: 12px"
+          ></div>
+          <p
+            class="search-tip"
+            style="margin-top: 8px; color: #666; font-size: 0.9rem"
+          >
+            Pulsa <kbd>ESC</kbd> para cerrar
+          </p>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-container">
+          <p>© 2025 Loop. Todos los derechos reservados.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js" defer></script>
+  </body>
+</html>

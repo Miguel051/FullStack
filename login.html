@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - LOOP</title>
+
+    <!-- Reutiliza la tipografía y algunos estilos generales -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="page-fade is-visible">
+      <div class="login-container">
+        <div class="login-card">
+          <div class="login-header">
+            <img
+              src="img/LOOP1.png"
+              alt="Loop"
+              style="height: 56px; margin-bottom: 8px"
+            />
+            <h2>Iniciar sesión</h2>
+            <p>Accede a tu cuenta para gestionar tus proyectos</p>
+          </div>
+          <form
+            id="loginForm"
+            class="login-form"
+            action="#"
+            method="POST"
+            novalidate
+          >
+            <label for="email">Correo electrónico</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="tu@correo.com"
+              required
+            />
+
+            <label for="password">Contraseña</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="********"
+              required
+            />
+
+            <div class="login-row">
+              <label class="remember">
+                <input type="checkbox" id="remember" /> Recuérdame
+              </label>
+              <a href="#" class="link">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button type="submit" class="btn-primary btn-full">Entrar</button>
+            <p class="login-note">
+              ¿No tienes cuenta? <a href="#" class="link">Regístrate</a>
+            </p>
+            <p id="loginMsg" class="login-msg" aria-live="polite"></p>
+          </form>
+
+          <p style="text-align: center; margin-top: 12px">
+            <a href="index.html" class="link">← Volver al sitio</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
